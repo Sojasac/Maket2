@@ -88,7 +88,7 @@ header {
 	border-top: 40px solid #131313;
 	border-left: 40px solid #06060b;
 	border-right: 40px solid #06060b;
-	width: 80px;
+	width: 160px;
 	height: 0;
 }
 
@@ -175,12 +175,16 @@ header .menu li:hover {
 	height: 50px;
 	background: #131313;
 	color: #fff;
+	text-align: center;
+	padding: 12px 0;
 }
 .container2 .center .button .button2 {
 	width: 170px;
 	height: 50px;
 	background: #131313;
 	color: #fff;
+	text-align: center;
+	padding: 12px 0;
 }
 .container2 .center .button div:hover {
 	background: #ff0036;
@@ -256,8 +260,8 @@ header .menu li:hover {
 	margin-bottom: 100px;
 } 
 .container3 .octagon2 .quad .aquad {
-	width: 100px;
-	height: 55px;
+	width: 50px;
+	height: 35px;
 	position: relative;
 	background: red;
 	text-align: center;
@@ -270,8 +274,8 @@ header .menu li:hover {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
 	border-bottom: 25px solid red;
 }
 .container3 .octagon2 .quad .aquad:after {
@@ -281,8 +285,8 @@ header .menu li:hover {
 	left: 0;
 	width: 0;
 	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
 	border-top: 25px solid red;
 
 }
@@ -366,3 +370,89 @@ header .menu li:hover {
 .container4 .grids li img {
 	max-width: 100%;
 }
+
+.container9 h2 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #262626;
+
+}
+.container9 h2 span, .container9 .cont9_desc span {
+	color: #ff0036;
+}
+
+.container9 .cont9_desc {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #505050;
+	padding-bottom: 100px;
+}
+.container9 .card_item {
+	min-width: 270px;
+}
+
+.container9 .card_item ul .first_row {
+	background: #262626;
+	color: #fff;
+	text-align: center;
+	padding: 16px 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: medium;
+	font-size: 20px;
+}
+.container9 .card_item ul .second_row {
+	background: #f2f2f2;
+	color: #262626;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.container9 .card_item ul .second_row span {
+	font-size: 50px;
+	font-weight: 900;
+}
+.container9 .card_item ul .multiplex_row {
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	padding: 20px 0;
+	color: #262626;
+}
+.container9 .card_item ul .last_row {
+	text-align: center;
+	border-left: 1px solid #f2f2f2;
+	border-right: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	height: 80px;
+}
+.container9 .card_item ul .last_row a {
+	background: #262626;
+	text-decoration: none;
+	color: #fff;
+	padding: 13px 52px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	position: relative;
+	top: 26px;
+}
+
+.container9 .card_item:hover ul .second_row {
+	background: #ff0036;
+	color: #fff;
+}
+.container9 .card_item:hover ul .second_row span {
+	color: #fff;
+}
+.container9 .card_item:hover ul .last_row a {
+	background: #ff0036;
+}
+
